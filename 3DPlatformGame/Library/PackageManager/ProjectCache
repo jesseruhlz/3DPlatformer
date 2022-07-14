@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637931634527422100
-    m_Hash: 1404049538
+      ticks: 637934319398362484
+    m_Hash: 1320944904
   m_LockFileStatus:
     m_FilePath: C:/Users/super/Documents/GitHub/3DPlatformer/3DPlatformGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637931634527578640
-    m_Hash: 595287276
+      ticks: 637934319398557004
+    m_Hash: 2397714307
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -362,6 +362,95 @@ m_ResolvedPackages:
     version: 1.0.1
   - name: com.unity.settings-manager
     version: 1.0.3
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.1
+    nextVersion: 
+- packageId: com.unity.feature.worldbuilding@1.0.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.1
+  source: 2
+  resolvedPath: C:\Users\super\Documents\GitHub\3DPlatformer\3DPlatformGame\Library\PackageCache\com.unity.feature.worldbuilding@1.0.1
+  assetPath: Packages/com.unity.feature.worldbuilding
+  name: com.unity.feature.worldbuilding
+  displayName: 3D World Building
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: feature
+  description: Create attractive 3D environments with the World building feature
+    set and round-trip assets between your 3D modeling software of choice using FBX
+    to realize your creative intent. Create geometry, sculpt meshes, & terrain, blend
+    textures, and place objects throughout your scene using artist driven tools to
+    create believable interactive environments.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    compatible:
+    - 1.0.1
+    verified: 1.0.1
+  dependencies:
+  - name: com.unity.probuilder
+    version: default
+  - name: com.unity.polybrush
+    version: default
+  - name: com.unity.formats.fbx
+    version: default
+  - name: com.unity.terrain-tools
+    version: default
+  resolvedDependencies:
+  - name: com.unity.probuilder
+    version: 5.0.3
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.polybrush
+    version: 1.1.2
+  - name: com.unity.formats.fbx
+    version: 4.1.2
+  - name: com.unity.timeline
+    version: 1.6.4
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.autodesk.fbx
+    version: 4.1.1
+  - name: com.unity.terrain-tools
+    version: 4.0.3
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.terrainphysics
+    version: 1.0.0
   keywords: []
   registry:
     id: main
@@ -2959,6 +3048,379 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
+- packageId: com.unity.probuilder@5.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 5.0.3
+  source: 1
+  resolvedPath: C:\Users\super\Documents\GitHub\3DPlatformer\3DPlatformGame\Library\PackageCache\com.unity.probuilder@5.0.3
+  assetPath: Packages/com.unity.probuilder
+  name: com.unity.probuilder
+  displayName: ProBuilder
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
+    for in-scene level design, prototyping, collision meshes, all with on-the-fly
+    play-testing.
+
+
+    Advanced features include UV editing, vertex colors, parametric
+    shapes, and texture blending. With ProBuilder''s model export feature it''s easy
+    to tweak your levels in any external 3D modelling suite.
+
+
+    If you are using
+    URP/HDRP, be careful to also import the corresponding sample project in the section
+    below to get the proper materials.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.0.6
+    - 3.0.8
+    - 3.0.9
+    - 3.10.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.0.5
+    - 4.1.0
+    - 4.1.2
+    - 4.2.1
+    - 4.2.2-preview.1
+    - 4.2.2-preview.2
+    - 4.2.3
+    - 4.2.4-preview.0
+    - 4.3.0-preview.0
+    - 4.3.0-preview.1
+    - 4.3.0-preview.2
+    - 4.3.0-preview.4
+    - 4.3.0-preview.6
+    - 4.3.0-preview.7
+    - 4.3.0-preview.8
+    - 4.3.0-preview.9
+    - 4.3.1
+    - 4.4.0-preview.1
+    - 4.4.0
+    - 4.5.0
+    - 4.5.2
+    - 5.0.0-pre.7
+    - 5.0.0-pre.10
+    - 5.0.1
+    - 5.0.3
+    - 5.0.4
+    - 5.0.6
+    compatible:
+    - 5.0.3
+    - 5.0.4
+    - 5.0.6
+    verified: 5.0.6
+  dependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - 3d
+  - model
+  - mesh
+  - modeling
+  - geometry
+  - shape
+  - cube
+  - blender
+  - max
+  - maya
+  - fbx
+  - obj
+  - level
+  - design
+  - block
+  - greybox
+  - graybox
+  - whitebox
+  - prototype
+  - probuilder
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637534907290000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.probuilder.git
+    revision: 6a81f0485f2eed8c8a0c193422d52d55f64cd79c
+    path: 
+  unityLifecycle:
+    version: 5.0.3
+    nextVersion: 
+- packageId: com.unity.polybrush@1.1.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.1.2
+  source: 1
+  resolvedPath: C:\Users\super\Documents\GitHub\3DPlatformer\3DPlatformGame\Library\PackageCache\com.unity.polybrush@1.1.2
+  assetPath: Packages/com.unity.polybrush
+  name: com.unity.polybrush
+  displayName: Polybrush
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Mesh painting, sculpting, and geo-scattering tool for Unity.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.13
+    - 1.0.0-preview.16
+    - 1.0.0-preview.17
+    - 1.0.0
+    - 1.0.1-preview.1
+    - 1.0.1-preview.2
+    - 1.0.1
+    - 1.0.2-preview.1
+    - 1.0.2-preview.4
+    - 1.0.2
+    - 1.1.0-pre.1
+    - 1.1.2
+    - 1.1.3
+    compatible:
+    - 1.1.2
+    - 1.1.3
+    verified: 1.1.3
+  dependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  keywords:
+  - modeling
+  - sculpting
+  - push
+  - clay
+  - terrain
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637533293620000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/polybrush.git
+    revision: 33a169f6d3adb5479de5d76145738d3a38e95c77
+    path: 
+  unityLifecycle:
+    version: 1.1.2
+    nextVersion: 
+- packageId: com.unity.formats.fbx@4.1.2
+  testable: 0
+  isDirectDependency: 0
+  version: 4.1.2
+  source: 1
+  resolvedPath: C:\Users\super\Documents\GitHub\3DPlatformer\3DPlatformGame\Library\PackageCache\com.unity.formats.fbx@4.1.2
+  assetPath: Packages/com.unity.formats.fbx
+  name: com.unity.formats.fbx
+  displayName: FBX Exporter
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "The Unity FBX Exporter package makes it easy to send geometry and
+    animation to any application that supports the FBX format and send them back
+    to Unity with minimal effort.\n\nIn particular, this round-trip workflow enables
+    you to export Unity Scenes to FBX files, import them into Autodesk\xAE Maya\xAE,
+    Autodesk\xAE Maya LT\u2122, or Autodesk\xAE 3ds Max\xAE using an artist-friendly
+    interface, export Unity-ready FBX geometry and animation, and safely merge your
+    changes back into those Assets to continue your work in Unity."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 2.0.1-preview.2
+    - 2.0.1-preview.3
+    - 2.0.1-preview.4
+    - 2.0.1-preview.5
+    - 2.0.1-preview.11
+    - 2.0.2-preview.1
+    - 2.0.3-preview.3
+    - 3.0.0-preview.2
+    - 3.0.1-preview.2
+    - 3.1.0-preview.1
+    - 3.2.0-preview.2
+    - 3.2.1-preview.2
+    - 4.0.0-pre.1
+    - 4.0.0-pre.4
+    - 4.0.1
+    - 4.1.0-pre.2
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.2.0-pre.1
+    compatible:
+    - 4.1.2
+    - 4.2.0-pre.1
+    verified: 4.1.2
+  dependencies:
+  - name: com.unity.timeline
+    version: 1.5.2
+  - name: com.autodesk.fbx
+    version: 4.1.1
+  resolvedDependencies:
+  - name: com.unity.timeline
+    version: 1.6.4
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.autodesk.fbx
+    version: 4.1.1
+  keywords:
+  - fbx
+  - animation
+  - modeling
+  - maya
+  - max
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637733605130000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.formats.fbx.git
+    revision: 2daae3674ab93a799fbb71611abb1440e5d0e527
+    path: 
+  unityLifecycle:
+    version: 4.1.2
+    nextVersion: 
+- packageId: com.unity.terrain-tools@4.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 4.0.3
+  source: 1
+  resolvedPath: C:\Users\super\Documents\GitHub\3DPlatformer\3DPlatformGame\Library\PackageCache\com.unity.terrain-tools@4.0.3
+  assetPath: Packages/com.unity.terrain-tools
+  name: com.unity.terrain-tools
+  displayName: Terrain Tools
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "The Terrain Tools package adds additional Terrain sculpting brushes
+    and tools to Unity. This add-on toolset is suitable if you require more control
+    over the appearance of your Terrain, and want to streamline Terrain workflows.
+    It\u2019s also useful when you want to make more complex-looking Terrain, or
+    author Terrain Texture data in external digital content creation tools."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 2.0.0-preview
+    - 2.0.1-preview
+    - 2.0.2-preview
+    - 3.0.0-preview
+    - 3.0.1-preview
+    - 3.0.2-preview.2
+    - 3.0.2-preview.3
+    - 4.0.0-pre.2
+    - 4.0.0
+    - 4.0.3
+    - 5.0.0-pre.2
+    - 5.0.0-pre.3
+    compatible:
+    - 4.0.3
+    verified: 4.0.3
+  dependencies:
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.terrainphysics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.terrainphysics
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords:
+  - Terrain
+  - Brush
+  - Toolbox
+  - Mask
+  - Filter
+  - Noise
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637688991560000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/TerrainTools.git
+    revision: 68c31ffe66a444f50da306b6cdc332efc6887b09
+    path: 
+  unityLifecycle:
+    version: 4.0.3
+    nextVersion: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -3258,6 +3720,59 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.4.0
+    nextVersion: 
+- packageId: com.autodesk.fbx@4.1.1
+  testable: 0
+  isDirectDependency: 0
+  version: 4.1.1
+  source: 1
+  resolvedPath: C:\Users\super\Documents\GitHub\3DPlatformer\3DPlatformGame\Library\PackageCache\com.autodesk.fbx@4.1.1
+  assetPath: Packages/com.autodesk.fbx
+  name: com.autodesk.fbx
+  displayName: Autodesk FBX SDK for Unity
+  author:
+    name: Unity
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "This package provides Unity C# bindings to the Autodesk\xAE FBX\xAE
+    SDK."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 4.1.1
+    compatible:
+    - 4.1.1
+    verified: 4.1.1
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - fbx
+  - animation
+  - modeling
+  - maya
+  - max
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.autodesk.fbx.git
+    revision: b6cd1211ff8824752e3dcbf05f426bac266606a0
+    path: 
+  unityLifecycle:
+    version: 4.1.1
     nextVersion: 
 - packageId: com.unity.settings-manager@1.0.3
   testable: 0
