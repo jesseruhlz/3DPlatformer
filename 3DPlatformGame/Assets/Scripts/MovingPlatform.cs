@@ -27,14 +27,14 @@ public class MovingPlatform : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject == Player)
+        if(other.gameObject.tag == "Player")
         {
             Player.transform.parent = transform;
         }
     }
     private void OnTriggerExit(Collider other)
     {
-        if(other.gameObject == Player)
+        if(other.gameObject.tag == "Player")
         {
             Player.transform.parent = null;
         }
